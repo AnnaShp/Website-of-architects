@@ -1,0 +1,40 @@
+.header__nav {
+    font-family: 'Roboto', normal;
+}
+
+.header_logo {
+    width: 68.55px;
+    height: 41.53px;
+}
+
+.header-menu {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #333333;
+    padding: 0.2em;
+    list-style-type: none;
+}
+
+.header_main {
+    display: inline-flex;
+    margin: 2em 5em;
+}
+
+.header__nav {
+    display: inline-flex;
+    margin-left: 40em;
+    column-gap: 4em;
+}
+
+.main {
+    border-bottom: 1px solid #333333;
+    border-top: 1px solid #333333;
+    width: 3.5em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

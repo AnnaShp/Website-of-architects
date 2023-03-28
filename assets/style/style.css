@@ -38,3 +38,22 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.container__projects {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.container__contacts {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.projects__img.projects__img_first {
+    display: flex;
+}
+
+.projects__img.projects__img_second {
+    display: flex;
+    justify-content: space-around;
+}

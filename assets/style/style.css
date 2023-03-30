@@ -65,7 +65,9 @@ a {
 .footer {
     background-color: #2C2C2C;
     color: #fff;
+    margin-top: 1.5em;
 }
+
 
 .footer_logo {
     width: 145px;
@@ -73,7 +75,7 @@ a {
 }
 
 .footer_logo {
-    margin-top: 2em;
+    margin-top: 2.3em;
 }
 
 .h3 {
@@ -100,10 +102,9 @@ a {
     grid-template-columns: 250px 300px repeat(2, 1fr);
     grid-template-rows: 280px;
     margin: 4em;
-    border: 1px solid red;
 }
 
-.footer__nav_menu>li{
+.footer__nav_menu>li {
     display: flex;
     padding: 0.6em;
 }

@@ -278,12 +278,72 @@ h1>span,
 
 .projects__img.projects__img_first {
     display: flex;
+    position: relative;
+    border: 1px red solid;
 }
 
 .projects__img.projects__img_second {
     display: flex;
     justify-content: space-around;
+    padding: 15px 15px 15px 15px;
 }
+
+
+projects.projects-text {
+    position: absolute;
+    top: 48px;
+    left: 79px;
+}
+
+/* .projects_button {
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projects_button>button {
+    width: 221.81px;
+    height: 71px;
+    background-color: #333333;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    text-transform: uppercase;
+}
+
+.projects_button>img {
+    margin-top: 25px;
+} */
+
+.projects__button {
+    background-color: #333333;
+    width: 221.81px;
+    height: 71px;
+    margin-top: 15px;
+    display: inline-flex;
+    padding: 1em;
+}
+
+
+.projects__button.projects__button_text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Roboto', normal;
+    width: 117px;
+    height: 17px;
+}
+
+.projects__button.projects__button_arrow {
+    width: 24px;
+    height: 24px;
+}
+
+
 
 /*позиционирование футер*/
 .footer {

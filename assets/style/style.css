@@ -272,13 +272,12 @@ h1>span,
     margin: 0px auto;
     display: grid;
     grid-template-rows: 124px 285px;
-    grid-template-columns: repeat(2, 570px);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
 .projects.projects_section {
     grid-area: 1/1/2/3;
-
 }
 
 .projects.projects_section>h2 {
@@ -324,9 +323,9 @@ h1>span,
 }
 
 .projects.projects_img1 {
-    background-image: url(../img/1_2_img_bilding_one.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Позиционирование второй части OUR Projects */
@@ -334,27 +333,28 @@ h1>span,
     width: 1170px;
     margin: 0px auto;
     display: grid;
-    grid-template-rows: 285px 90px;
+    grid-template-rows: 255px 90px;
     grid-template-columns: 270px 470px 370px;
     gap: 30px;
 }
 
 .projects.projects_img2 {
-    background-image: url(../img/1_2_img_bilding_two.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 .projects.projects_img3 {
-    background-image: url(../img/1_2_img_bilding_three.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .projects.projects_img4 {
-    background-image: url(../img/1_2_img_bilding_four.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .projects__button.projects__button_black {
@@ -383,15 +383,20 @@ h1>span,
     color: #fff;
 }
 
+.contacts.contacts_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Позиционирование  Contact Us */
 .container__contacts {
-    border: 1px red solid;
     width: 1170px;
     margin: 0px auto;
     display: grid;
     grid-template-rows: 124px 369px 80px;
-    grid-template-columns: 391px 749px;
-    gap: 29px;
+    grid-template-columns: 392px 1fr;
+    gap: 40px;
 }
 
 .contacts.contacts_section>h2 {
@@ -402,21 +407,10 @@ h1>span,
 }
 
 .contacts.contacts_section {
-    border: 1px red solid;
     grid-area: 1/1/2/3;
 }
 
-.contacts__input.contacts__input_container {
-    border: 1px red solid;
-
-}
-
-.contacts.contacts_img {
-    border: 1px red solid;
-}
-
 .contacts__button.contacts__button_black {
-    border: 1px red solid;
     grid-area: 3/1/4/3;
     display: flex;
     width: 221.81px;
@@ -439,6 +433,29 @@ h1>span,
     font-family: 'Roboto', serif;
     font-weight: lighter;
     color: #fff;
+}
+
+.contacts__input.contacts__input_container input {
+    width: 380px;
+    height: 46px;
+    margin-bottom: 5px;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    font-family: 'Roboto', normal;
+    color: #8D8D8D;
+    border: none;
+    padding: 0 21px;
+}
+
+.contacts__input.contacts__input_container textarea {
+    width: 380px;
+    height: 147px;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    font-family: 'Roboto', normal;
+    color: #8D8D8D;
+    border: none;
+    padding: 14px 21px;
 }
 
 

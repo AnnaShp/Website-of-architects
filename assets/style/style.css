@@ -33,13 +33,13 @@ h1>span,
 
 .header_main {
     display: inline-flex;
-    margin: 2em 5em;
+    margin: 1.5em 4em;
 }
 
 .header__nav {
     display: inline-flex;
-    margin-left: 40em;
-    column-gap: 4em;
+    margin-left: 34em;
+    column-gap: 3.2em;
 }
 
 .main {
@@ -57,11 +57,11 @@ a {
 /*article-main*/
 .article-main {
     display: grid;
-    grid-template-columns: 550px 1fr;
+    grid-template-columns: 465px 1fr;
     grid-template-rows: 370px 170px 90px 200px;
-    width: 70em;
+    width: 65em;
     height: 829px;
-    margin: 0.8em 5em;
+    margin: 0.8em 4em;
 }
 
 .article_h1 {
@@ -163,9 +163,9 @@ h1>span,
     display: grid;
     grid-template-columns: 270px 270px 1fr;
     grid-template-rows: 1fr;
-    width: 70em;
+    width: 65em;
     height: 435px;
-    margin: 120px 6em;
+    margin: 120px 4em;
     padding-top: 2em;
     padding-left: 6em;
     padding-right: 6em;
@@ -208,18 +208,18 @@ h1>span,
 
 .article_block2_text {
     display: flex;
-    width: 27em;
+    width: 25em;
 }
 
 
 /*article-block3*/
 .article-block3 {
     display: grid;
-    grid-template-columns: 25em 25em;
+    grid-template-columns: 24em 24em;
     grid-template-rows: 200px;
-    width: 70em;
+    width: 65em;
     height: 268px;
-    margin: 60px 6em;
+    margin: 60px 4em;
     column-gap: 15em;
 }
 
@@ -242,7 +242,7 @@ h1>span,
 
 .article-inner2 {
     grid-area: 1/2/2/3;
-    width: 40em;
+    width: 39em;
     height: 150px;
 }
 

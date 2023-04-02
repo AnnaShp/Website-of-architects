@@ -383,6 +383,63 @@ h1>span,
     color: #fff;
 }
 
+/* Позиционирование  Contact Us */
+.container__contacts {
+    border: 1px red solid;
+    width: 1170px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-rows: 124px 369px 80px;
+    grid-template-columns: 391px 749px;
+    gap: 29px;
+}
+
+.contacts.contacts_section>h2 {
+    font-size: 64px;
+    font-family: 'Roboto', serif;
+    font-weight: lighter;
+    color: rgba(189, 189, 189, 1);
+}
+
+.contacts.contacts_section {
+    border: 1px red solid;
+    grid-area: 1/1/2/3;
+}
+
+.contacts__input.contacts__input_container {
+    border: 1px red solid;
+
+}
+
+.contacts.contacts_img {
+    border: 1px red solid;
+}
+
+.contacts__button.contacts__button_black {
+    border: 1px red solid;
+    grid-area: 3/1/4/3;
+    display: flex;
+    width: 221.81px;
+    height: 71px;
+    background-color: #333333;
+}
+
+.contacts__button.contacts__button_black_link {
+    margin: 30px 10px 29px 39px;
+}
+
+.contacts__button.contacts__button_black_img {
+    margin-top: 28px;
+}
+
+.contacts__button.contacts__button_black_link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto', serif;
+    font-weight: lighter;
+    color: #fff;
+}
 
 
 /*позиционирование футер*/

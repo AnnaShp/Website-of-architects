@@ -19,6 +19,7 @@ h1>span,
 .header_logo {
     width: 68.55px;
     height: 41.53px;
+    padding: 1em;
 }
 
 .header-menu {
@@ -27,20 +28,20 @@ h1>span,
     line-height: 12px;
     letter-spacing: 0.2em;
     color: #333333;
-    padding: 0.2em;
+    padding: 1em;
     list-style-type: none;
 }
 
 .header_main_container {
-    display: inline-flex;
-    max-width: 1200px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.95fr 1.7fr;
+    margin: 0px auto;
+    border: 1px solid red;
 }
 
 .header__nav {
     display: inline-flex;
-    margin-left: 34em;
-    column-gap: 3.2em;
+    column-gap: 3em;
 }
 
 .main {
@@ -56,9 +57,13 @@ a {
 
 /*позиционирование 1 часть*/
 /*section-main*/
-.section-main_container, .section_block_container,
-.section-block3_container {
+.header_main_container,
+.section-main_container,
+.section_block_container,
+.section-block3_container,
+.section_block3>span {
     max-width: 1200px;
+    margin: 0px auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -68,8 +73,8 @@ a {
     grid-template-columns: 1fr 1.6fr;
     grid-template-rows: 0.8fr 0.6fr 0.3fr 0.4fr;
     max-height: 829px;
-    margin: 0 auto;
     border: 1px solid red;
+    padding-bottom: 6em;
 }
 
 .section_h1 {
@@ -170,10 +175,7 @@ h1>span,
     grid-template-columns: 0.7fr 0.5fr 0.8fr;
     grid-template-rows: 1fr;
     max-height: 465px;
-    margin: auto;
-    margin-top: 6em;
-    margin-bottom: 6em;
-    border: 1px solid red;
+    border: 1px solid rgb(51, 255, 0);
 }
 
 .section_block_container {
@@ -189,13 +191,13 @@ h1>span,
     display: flex;
     flex-direction: column;
     margin-left: 7em;
-    row-gap: 1em;
+    row-gap: 1.5em;
 }
 
 .section_block1_picture3 {
     grid-area: 1/2/2/3;
     margin-top: 2em;
-
+    padding: 1em;
 }
 
 .section-block2 {
@@ -220,17 +222,14 @@ h1>span,
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     max-height: 268px;
-    margin: auto;
-    margin-top: 4em;
-    margin-bottom: 6em;
-    border: 1px solid red;
+    padding-top: 2em;
+    border: 1px solid rgb(128, 0, 255);
 }
 
 .section_block3>span {
     display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    border: 1px solid red;
+    padding-top: 1.5em;
+    border: 1px solid rgb(255, 234, 0);
 }
 
 .section-inner1 {
@@ -259,7 +258,6 @@ h1>span,
 
 .section_inner1_text {
     display: flex;
-
     margin-left: 3em;
 }
 
@@ -277,7 +275,7 @@ h1>span,
 .container__contacts {
     max-width: 1200px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-right: 15px;
     margin: 0px auto;
 }
 

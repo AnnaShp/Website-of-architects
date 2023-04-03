@@ -271,10 +271,33 @@ h1>span,
 .container__projects.container__projects_one,
 .container__projects.container__projects_two,
 .container__contacts {
-    margin: 0px 6em;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin: 0px auto;
 }
 
+@media screen and (max-width: 960px) {
+
+    .container__projects.container__projects_one,
+    .container__projects.container__projects_two,
+    .container__contacts {
+        width: 960px;
+        padding-left: 15px;
+        padding-top: 15px;
+        margin: 0px auto;
+    }
+
+    .projects.projects_section>h2,
+    .contacts.contacts_section>h2 {
+        font-size: 54px;
+    }
+
+}
+
+
 /*Изображения*/
+.projects.projects_img0,
 .projects.projects_img1,
 .projects.projects_img2,
 .projects.projects_img3,
@@ -282,6 +305,7 @@ h1>span,
 .contacts.contacts_img {
     object-fit: cover;
 }
+
 
 /* Стили заголовка H2 */
 .projects.projects_section>h2,
@@ -322,6 +346,7 @@ h1>span,
 
 /* Позиционирование первой части OUR Projects */
 .container__projects.container__projects_one {
+    border: 1px red solid;
     display: grid;
     grid-template-rows: 124px 285px;
     grid-template-columns: repeat(2, 570px);
@@ -332,11 +357,15 @@ h1>span,
     grid-area: 1/1/2/3;
 }
 
+.container_img {
+    position: relative;
+    display: flex;
+}
+
 .projects.projects_text {
-    background-image: url(../img/1_2_img_bilding_five.png);
-    opacity: 1;
-    background-size: auto;
-    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 79px;
+
 }
 
 .projects.projects_text p {
@@ -346,7 +375,7 @@ h1>span,
     color: #fff;
     width: 233px;
     height: 70px;
-    padding-left: 79px;
+
 }
 
 .projects__button.projects__button_invisible {
@@ -359,7 +388,6 @@ h1>span,
     font-family: 'Roboto', serif;
     font-weight: lighter;
     color: #fff;
-    padding-left: 79px;
     text-transform: uppercase;
 }
 
@@ -369,6 +397,7 @@ h1>span,
 
 /* Позиционирование второй части OUR Projects */
 .container__projects.container__projects_two {
+    border: 1px red solid;
     display: grid;
     grid-template-rows: 255px 90px;
     grid-template-columns: 270px 470px 370px;
@@ -384,9 +413,10 @@ h1>span,
 
 /* Позиционирование  Contact Us */
 .container__contacts {
+    border: 1px red solid;
     display: grid;
     grid-template-rows: 124px 369px 80px;
-    grid-template-columns: 392px 1fr;
+    grid-template-columns: 391px 749px;
     gap: 40px;
 }
 

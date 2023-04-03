@@ -36,7 +36,7 @@ h1>span,
     display: grid;
     grid-template-columns: 0.95fr 1.7fr;
     margin: 0px auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .header__nav {
@@ -61,7 +61,7 @@ a {
 .section-main_container,
 .section_block_container,
 .section-block3_container,
-.section_block3>span {
+.section_block3>span, .container_footer {
     max-width: 1200px;
     margin: 0px auto;
     padding-left: 15px;
@@ -73,7 +73,7 @@ a {
     grid-template-columns: 1fr 1.6fr;
     grid-template-rows: 0.8fr 0.6fr 0.3fr 0.4fr;
     max-height: 829px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding-bottom: 6em;
 }
 
@@ -175,7 +175,7 @@ h1>span,
     grid-template-columns: 0.7fr 0.5fr 0.8fr;
     grid-template-rows: 1fr;
     max-height: 465px;
-    border: 1px solid rgb(51, 255, 0);
+    /*border: 1px solid rgb(51, 255, 0);*/
 }
 
 .section_block_container {
@@ -223,13 +223,14 @@ h1>span,
     grid-template-rows: 1fr;
     max-height: 268px;
     padding-top: 2em;
-    border: 1px solid rgb(128, 0, 255);
+    /*border: 1px solid rgb(128, 0, 255);*/
 }
 
 .section_block3>span {
     display: flex;
     padding-top: 1.5em;
-    border: 1px solid rgb(255, 234, 0);
+   /*border: 1px solid rgb(255, 234, 0);*/
+    
 }
 
 .section-inner1 {
@@ -493,9 +494,9 @@ h1>span,
 
 .container_footer {
     display: grid;
-    grid-template-columns: 250px 300px repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr) 1.5fr;
     grid-template-rows: 280px;
-    margin: 4em;
+    max-height: 417px;
 }
 
 .footer__nav_menu>li {

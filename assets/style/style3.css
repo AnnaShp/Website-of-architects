@@ -1,4 +1,18 @@
 /** Позиционирование */
+
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+
+.main-name {
+    width: 17.36em;
+    height: 8em;
+    margin-bottom: 60px;
+}
+
 .container-projects {
     display: flex;
     flex-direction: column;
@@ -7,13 +21,58 @@
     max-width: 1170px;
 }
 
+.container-projects__section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
 .container-projects__img {
-    width: 670px;
-    height: 435px;
+    grid-area: 1/1/5/8;
+}
+
+.container-projects__content {
+    grid-area: 1/8/3/13;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.container-projects__button {
+    grid-area: 3/8/5/13;
+    margin-left: 30px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src:url("./assets/fonts/Roboto/Roboto-Light.ttf") format("ttf"),
+}
+
+.h1_our {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: gray;
+    line-height: 64px;
+}
+
+.h1_projects {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 64px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    size: 40px;
+    line-height: 46.88px;
+    color: #BDBDBD;
 }
 
 p {
-    width: 400px;
-    height: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    size: 16px;
+    line-height: 25px;
+    color: black;
 }
-

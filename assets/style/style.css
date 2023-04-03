@@ -56,11 +56,17 @@ a {
 
 /*позиционирование 1 часть*/
 /*section-main*/
+.section-main_container, .section_block_container,
+.section-block3_container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .section-main_container {
     display: grid;
     grid-template-columns: 1fr 1.6fr;
     grid-template-rows: 0.8fr 0.6fr 0.3fr 0.4fr;
-    max-width: 1200px;
     max-height: 829px;
     margin: 0 auto;
     border: 1px solid red;
@@ -163,7 +169,6 @@ h1>span,
     display: grid;
     grid-template-columns: 0.7fr 0.5fr 0.8fr;
     grid-template-rows: 1fr;
-    max-width: 1200px;
     max-height: 465px;
     margin: auto;
     margin-top: 6em;
@@ -214,16 +219,18 @@ h1>span,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    max-width: 1200px;
     max-height: 268px;
     margin: auto;
-    margin-top: 6em;
+    margin-top: 4em;
     margin-bottom: 6em;
+    border: 1px solid red;
 }
 
 .section_block3>span {
     display: flex;
     justify-content: center;
+    margin-top: 2em;
+    border: 1px solid red;
 }
 
 .section-inner1 {

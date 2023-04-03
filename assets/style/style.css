@@ -216,8 +216,9 @@ h1>span,
     grid-template-rows: 1fr;
     max-width: 1200px;
     max-height: 268px;
-    margin: 0 auto;
-
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
 }
 
 .section_block3>span {

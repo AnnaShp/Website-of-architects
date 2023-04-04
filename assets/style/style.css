@@ -286,7 +286,7 @@ h1>span,
     .container__projects.container__projects_one,
     .container__projects.container__projects_two,
     .container__contacts {
-        width: 960px;
+        max-width: 960px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0px auto;
@@ -294,7 +294,7 @@ h1>span,
 
     .projects.projects_section>h2,
     .contacts.contacts_section>h2 {
-        font-size: 54px;
+        font-size: 20px;
     }
 
 }

@@ -1,0 +1,88 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 3fr repeat(4, 1fr);
+    height: 520px;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin: 30px 135px 30px 135px;
+}
+
+.title__text.title__text_grey {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title__text {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contacts__text,
+.contacts__coordinates-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contacts__mail-link,
+.contacts__address-link {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contacts__address-link,
+.contacts__coordinates-link,
+.contacts__mail-link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.contacts__map {
+    grid-column: 2/3;
+    grid-row: 1/6
+}
+
+iframe {
+    width:100%;
+    height:100%;
+    border-color: black;
+    object-fit: cover;
+    align-self: stretch;
+}
+
+.contacts__button-text {
+    width: 221.81px;
+    height: 71px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFF;
+    background-color: #333333;
+}
+
+.contacts__address-link:hover {
+    text-decoration: underline;
+}
+
+.contacts__coordinates-link:hover {
+    text-decoration: underline;
+}
+
+.contacts__mail-link:hover {
+    text-decoration: underline;
+}
+
+.contacts__button-text:hover {
+    cursor: pointer;
+    border-color: #BDBDBD;
+}

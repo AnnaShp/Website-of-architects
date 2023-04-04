@@ -7,13 +7,46 @@ h1>span,
 .button,
 .section_block2>span,
 .section_block2_text,
-.section_block3>span,
+.section_block3>h2,
 .section_inner_text {
     font-family: 'Roboto', normal;
 }
 
 *img {
     max-width: max-content;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .header_main_container,
+    .section-main_container,
+    .section_block_container,
+    .section-block3_container {
+        width: 960px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    .section_h2>h2,
+    .section__h2>h2,
+    .section_block2>h2 {
+        font-size: 54px;
+    }
+
+    .section__form_picture>img,
+    .section__button_arrow>img,
+    .section_block1_picture12>img,
+    .section_block1_picture3>img,
+    .section__button_arrow>img,
+    .section_inner_picture>img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
 }
 
 .header_logo {
@@ -35,7 +68,7 @@ h1>span,
 .header_main_container {
     display: grid;
     grid-template-columns: 1fr 1.6fr;
-    margin: 0px auto;
+    margin: 0 auto;
     /*border: 1px solid red;*/
 }
 
@@ -87,7 +120,7 @@ a {
 
 h1>span,
 .section_block2>span,
-.section_block3>span {
+.section_block3>h2 {
     font-size: 64px;
     font-weight: 300;
     line-height: 64px;
@@ -99,7 +132,8 @@ h1>span,
     align-self: start;
 }
 
-.section_h2>span {
+.section_h2>h2,
+.section__h2>h2 {
     font-size: 64px;
     font-weight: 700;
     line-height: 64px;
@@ -172,11 +206,16 @@ h1>span,
 /*section-block*/
 .section_block_container {
     background-color: #FBFBFB;
-    display: grid;
-    grid-template-columns: 0.7fr 0.5fr 0.8fr;
-    grid-template-rows: 1fr;
     max-height: 465px;
     /*border: 1px solid rgb(51, 255, 0);*/
+}
+
+.container_inner {
+    display: grid;
+    grid-template-columns: 0.55fr 0.6fr 0.85fr;
+    grid-template-rows: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .section_block_container {
@@ -191,7 +230,6 @@ h1>span,
     grid-area: 1/1/2/2;
     display: flex;
     flex-direction: column;
-    margin-left: 7em;
     row-gap: 1.5em;
 }
 
@@ -220,15 +258,14 @@ h1>span,
 /*section-block3*/
 .section-block3_container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-height: 508px;
     margin-top: 4em;
     /*border: 1px solid rgb(128, 0, 255);*/
 }
 
-.section_block3>span {
-    display: flex;
+.section_block3>h2 {
     grid-area: 1/1/2/3;
     /*border: 1px solid rgb(255, 234, 0);*/
 }

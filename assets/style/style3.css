@@ -40,7 +40,41 @@
 .container-projects__button {
     grid-area: 3/8/5/13;
     margin-left: 30px;
+    width: 221.81px;
+    height: 61px;
+    margin-top: 15px;
+    background-color: white;
 }
+
+.container-projects__button {
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.container-projects__button_text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.container-projects__button_text {
+    max-width: max-content;
+    max-height: 24px;
+    margin: 0 auto;
+    align-self: left;
+}
+
+.container-projects__button_arrow {
+    max-width: 17.21px;
+    max-height: 8px;
+    margin: 0 auto;
+    align-self: right;
+}
+
+
 
 @font-face {
     font-family: "Roboto";
@@ -61,7 +95,7 @@
     line-height: 64px;
 }
 
-h3 {
+h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     size: 40px;
@@ -75,4 +109,16 @@ p {
     size: 16px;
     line-height: 25px;
     color: black;
+}
+
+.button-pages {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+
+.button-pages_right, .button-pages_left {
+    border: 0;
+    background-color: white;
 }

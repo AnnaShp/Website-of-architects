@@ -19,6 +19,85 @@ h1>span,
 
 @media screen and (max-width: 960px) {
 
+    .footer__nav_menu>li,
+    .footer_adress>p,
+    .footer_phone>a,
+    .footer_email>a {
+        font-size: 11px;
+    }
+
+    .section_block2_text,
+    .footer__h3>h3 {
+        font-size: 12px;
+    }
+
+    .section_inner1_text>p,
+    .section_inner2_text>p {
+        font-size: 18px;
+    }
+
+    .section__form_picture>img,
+    .section__button_arrow>img,
+    .section_block1_picture12>img,
+    .section_block1_picture3>img,
+    .section__button_arrow>img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .footer_logo>img,
+    .section_inner_picture>img {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+
+    .projects.projects_text p {
+        font-size: 40px;
+    }
+
+    .container__projects.container__projects_one {
+        display: grid;
+        grid-template-rows: 124px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .projects.projects_text {
+        margin-left: 30px;
+    }
+
+    .container__projects.container__projects_two {
+        grid-template-rows: 224px 70px;
+        grid-template-columns: 2.89fr 5fr 3.95fr;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .container__contacts {
+        display: grid;
+        grid-template-rows: 124px 286px 80px;
+        grid-template-columns: 4.5fr 7.5fr;
+        gap: 40px;
+    }
+
+    .contacts__input.contacts__input_container input {
+        width: 85%;
+        height: 35px;
+    }
+
+    .contacts__input.contacts__input_container textarea {
+        width: 85%;
+        height: 115px;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+
     .header_main_container,
     .section-main_container,
     .section_block_container,

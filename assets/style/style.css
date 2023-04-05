@@ -353,12 +353,14 @@ h1>span,
 
 .projects__button.projects__button_black_link,
 .contacts__button.contacts__button_black_link {
-    margin: 30px 10px 29px 39px;
+    margin-top: 13%;
+    margin-left: 25%;
+    margin-right: 5%;
 }
 
 .projects__button.projects__button_black_img,
 .contacts__button.contacts__button_black_img {
-    margin-top: 28px;
+    margin-top: 13%;
 }
 
 .projects__button.projects__button_black_link a,
@@ -391,7 +393,6 @@ h1>span,
 .projects.projects_text {
     position: absolute;
     margin-left: 79px;
-
 }
 
 .projects.projects_text p {
@@ -418,7 +419,7 @@ h1>span,
 }
 
 .projects__button.projects__button_invisible_img {
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 /* Позиционирование второй части OUR Projects */
@@ -476,7 +477,7 @@ h1>span,
     padding: 14px 21px;
 }
 
-@media screen and (min-width: 960px) and (max-width: 1200px) {
+@media screen and (min-width: 960px) and (max-width: 1199px) {
 
     .container__projects.container__projects_one,
     .container__projects.container__projects_two,
@@ -489,7 +490,7 @@ h1>span,
 
     .projects.projects_section>h2,
     .contacts.contacts_section>h2 {
-        font-size: 48px;
+        font-size: 51px;
     }
 
     .projects.projects_text p {
@@ -502,6 +503,10 @@ h1>span,
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         margin-bottom: 20px;
+    }
+
+    .projects.projects_text {
+        margin-left: 30px;
     }
 
     .container__projects.container__projects_two {
@@ -528,6 +533,233 @@ h1>span,
         height: 115px;
     }
 }
+
+@media screen and (min-width: 640px) and (max-width: 959px) {
+
+    .container__projects.container__projects_one,
+    .container__projects.container__projects_two,
+    .container__contacts {
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    .projects.projects_section>h2,
+    .contacts.contacts_section>h2 {
+        font-size: 34px;
+    }
+
+    .projects.projects_text p {
+        font-size: 25px;
+        width: 70%;
+        height: 30px;
+    }
+
+    .container__projects.container__projects_one {
+        display: grid;
+        grid-template-rows: 60px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+    }
+
+    .projects.projects_text {
+        margin-left: 30px;
+    }
+
+    .container__projects.container__projects_two {
+        grid-template-rows: 148px 70px;
+        grid-template-columns: 2.89fr 5fr 3.95fr;
+    }
+
+    .container__contacts {
+        display: grid;
+        grid-template-rows: 60px 286px 80px;
+        grid-template-columns: 4.5fr 7.5fr;
+        gap: 40px;
+    }
+
+    .contacts__input.contacts__input_container input {
+        width: 85%;
+        height: 35px;
+    }
+
+    .contacts__input.contacts__input_container textarea {
+        width: 85%;
+        height: 90px;
+    }
+
+    .projects__button.projects__button_black,
+    .contacts__button.contacts__button_black {
+        width: 150px;
+        height: 40px;
+    }
+
+    .projects__button.projects__button_black_link,
+    .contacts__button.contacts__button_black_link {
+        margin-top: 7%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .projects__button.projects__button_black_img,
+    .contacts__button.contacts__button_black_img {
+        margin-top: 6%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+
+    .container__projects.container__projects_one,
+    .container__projects.container__projects_two,
+    .container__contacts {
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    .projects.projects_section>h2,
+    .contacts.contacts_section>h2 {
+        font-size: 25px;
+    }
+
+    .projects.projects_text p {
+        font-size: 20px;
+        width: 70%;
+        height: 25px;
+    }
+
+    .container__projects.container__projects_one {
+        display: grid;
+        grid-template-rows: 55px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+    }
+
+    .projects.projects_text {
+        margin-left: 30px;
+    }
+
+    .container__projects.container__projects_two {
+        grid-template-rows: 90px 60px;
+        grid-template-columns: 2.89fr 5fr 3.95fr;
+    }
+
+    .container__contacts {
+        display: grid;
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-columns: 12fr 1fr;
+    }
+
+    .contacts.contacts_img {
+        display: none;
+    }
+
+    .contacts__input.contacts__input_container input {
+        width: 100%;
+        height: 35px;
+    }
+
+    .contacts__input.contacts__input_container textarea {
+        width: 100%;
+        height: 70px;
+    }
+
+    .projects__button.projects__button_black,
+    .contacts__button.contacts__button_black {
+        width: 150px;
+        height: 40px;
+    }
+
+    .projects__button.projects__button_black_link,
+    .contacts__button.contacts__button_black_link {
+        margin-top: 7%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .projects__button.projects__button_black_img,
+    .contacts__button.contacts__button_black_img {
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+
+
+
+    .projects.projects_section>h2,
+    .contacts.contacts_section>h2 {
+        font-size: 25px;
+    }
+
+    .projects.projects_text p {
+        font-size: 20px;
+        width: 70%;
+        height: 25px;
+    }
+
+    .container__projects.container__projects_one {
+        display: grid;
+        grid-template-rows: 55px 1fr;
+        grid-template-columns: 1fr;
+        margin-bottom: 10px;
+    }
+
+    .projects.projects_img1,
+    .projects.projects_img4,
+    .contacts.contacts_img {
+        display: none;
+    }
+
+    .projects.projects_text {
+        margin-left: 30px;
+    }
+
+    .container__projects.container__projects_two {
+        grid-template-rows: 90px 60px;
+        grid-template-columns: 2.89fr 5fr;
+    }
+
+    .container__contacts {
+        display: grid;
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-columns: 100%;
+    }
+
+    .contacts__input.contacts__input_container input {
+        width: 80%;
+        height: 35px;
+    }
+
+    .contacts__input.contacts__input_container textarea {
+        width: 80%;
+        height: 70px;
+    }
+
+    .projects__button.projects__button_black,
+    .contacts__button.contacts__button_black {
+        width: 150px;
+        height: 40px;
+        margin-right: 30px;
+    }
+
+    .projects__button.projects__button_black_link,
+    .contacts__button.contacts__button_black_link {
+        margin-top: 7%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .projects__button.projects__button_black_img,
+    .contacts__button.contacts__button_black_img {
+        margin-top: 6%;
+    }
+}
+
+
 
 /*позиционирование футер*/
 .footer {

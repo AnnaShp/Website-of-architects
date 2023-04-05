@@ -72,7 +72,7 @@ h1>span,
     .footer_logo>img,
     .section_inner_picture>img {
         max-width: 85%;
-        padding: 0 auto;
+        margin: 0 auto;
     }
 
 

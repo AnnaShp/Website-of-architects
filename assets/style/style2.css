@@ -58,69 +58,53 @@
     background-repeat: no-repeat;
     border: 000000;
 }
-@media screen and (min-width: 1400px) {
+/*адаптивность*/
+@media screen and (min-width: 960px) and (max-width: 1199px) {
     .gallery_conteiner{
-        margin: 0 auto;
-        width: 100%;
-        min-width: 1400px;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 2.5%;
-        justify-content: center;
-        justify-items: center;
-    }
-    .cell_gallery_img{
-        max-width: 100%;
-    }
-    .photo_header{
-        min-width: 1400px;
-    }
-    .gallery_navig{
-        min-width: 1400px;
-    }
-}
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-    .gallery_conteiner{
-        margin: 0 auto;
-        width: 100%;
         max-width: 1200px;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        gap: 2.5%;
-        justify-content: center;
-        justify-items: center;
     }
     .cell_gallery_img{
         max-width: 100%;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 800px) {
+@media screen and (min-width: 640px) and (max-width: 959px) {
     .gallery_conteiner{
-        margin: 0 auto;
-        width: 100%;
         max-width: 800px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        gap: 2.5%;
-        justify-content: center;
-        justify-items: center;
     }
     .cell_gallery_img{
         max-width: 100%;
     }
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 639px) {
     .gallery_conteiner{
-        margin: 0 auto;
-        width: 100%;
         max-width: 480px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: 2.5%;
-        justify-content: center;
-        justify-items: center;
     }
     .cell_gallery_img{
         max-width: 100%;
+    }
+}
+@media screen and (max-width: 479px) {
+    .gallery_conteiner{
+        max-width: 480px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .cell_gallery_img{
+        max-width: 100%;
+    }
+    .gallery_navig{
+        grid-template-columns: 150px 55px 55px;
+        gap: 1%;
+        margin-top: 60px;
+        max-width: 480px;
+    }
+    .gallery_1_5{
+        max-width: 150px
     }
 }

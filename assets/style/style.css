@@ -16,118 +16,6 @@ h1>span,
     max-width: max-content;
 }
 
-
-@media screen and (max-width: 960px) {
-
-    .footer__nav_menu>li,
-    .footer_adress>p,
-    .footer_phone>a,
-    .footer_email>a {
-        font-size: 11px;
-    }
-
-    .section_block2_text,
-    .footer__h3>h3 {
-        font-size: 12px;
-    }
-
-    .section_inner1_text>p,
-    .section_inner2_text>p {
-        font-size: 18px;
-    }
-
-    .section__form_picture>img,
-    .section__button_arrow>img,
-    .section_block1_picture12>img,
-    .section_block1_picture3>img,
-    .section__button_arrow>img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    .footer_logo>img,
-    .section_inner_picture>img {
-        max-width: 85%;
-        margin: 0 auto;
-    }
-
-
-    .projects.projects_text p {
-        font-size: 40px;
-    }
-
-    .container__projects.container__projects_one {
-        display: grid;
-        grid-template-rows: 124px 1fr;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        margin-bottom: 20px;
-    }
-
-    .projects.projects_text {
-        margin-left: 30px;
-    }
-
-    .container__projects.container__projects_two {
-        grid-template-rows: 224px 70px;
-        grid-template-columns: 2.89fr 5fr 3.95fr;
-        gap: 20px;
-        margin-bottom: 30px;
-    }
-
-    .container__contacts {
-        display: grid;
-        grid-template-rows: 124px 286px 80px;
-        grid-template-columns: 4.5fr 7.5fr;
-        gap: 40px;
-    }
-
-    .contacts__input.contacts__input_container input {
-        width: 85%;
-        height: 35px;
-    }
-
-    .contacts__input.contacts__input_container textarea {
-        width: 85%;
-        height: 115px;
-    }
-
-}
-
-@media screen and (min-width: 640px) and (max-width: 959px) {
-
-    .header_main_container,
-    .section-main_container,
-    .section_block_container,
-    .section-block3_container {
-        width: 960px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0px auto;
-    }
-
-    .section_h2>h2,
-    .section__h2>h2,
-    .section_block2>h2 {
-        font-size: 54px;
-    }
-
-    .section__form_picture>img,
-    .section__button_arrow>img,
-    .section_block1_picture12>img,
-    .section_block1_picture3>img,
-    .section__button_arrow>img,
-    .section_inner_picture>img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-}
-
 .header_logo {
     width: 68.55px;
     height: 41.53px;
@@ -562,7 +450,11 @@ h1>span,
 
     .container__projects.container__projects_one,
     .container__projects.container__projects_two,
-    .container__contacts {
+    .container__contacts,
+    .header_main_container,
+    .section-main_container,
+    .section_block_container,
+    .section-block3_container {
         max-width: 960px;
         padding-left: 15px;
         padding-right: 15px;
@@ -570,7 +462,11 @@ h1>span,
     }
 
     .projects.projects_section>h2,
-    .contacts.contacts_section>h2 {
+    .contacts.contacts_section>h2,
+    .section_h1>h1,
+    .section_h2>h2,
+    .section__h2>h2,
+    .section_block2>h2 {
         font-size: 51px;
     }
 
@@ -613,22 +509,150 @@ h1>span,
         width: 85%;
         height: 115px;
     }
+
+    .header-menu>li,
+    .section__button_text {
+        font-size: 10px;
+    }
+
+    .footer__nav_menu>li,
+    .footer_adress>p,
+    .footer_phone>a,
+    .footer_email>a {
+        font-size: 11px;
+    }
+
+    .section_block2_text,
+    .footer__h3>h3 {
+        font-size: 12px;
+    }
+
+    .section_inner1_text>p,
+    .section_inner2_text>p {
+        font-size: 18px;
+    }
+
+    .section__form_picture>img,
+    .section__button_arrow>img,
+    .section_block1_picture12>img,
+    .section_block1_picture3>img,
+    .section__button_arrow>img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .footer_logo>img {
+        max-width: 85%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 959px) {
 
     .container__projects.container__projects_one,
     .container__projects.container__projects_two,
-    .container__contacts {
+    .container__contacts,
+    .header_main_container,
+    .section-main_container,
+    .section_block_container,
+    .section-block3_container {
         max-width: 640px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0px auto;
     }
 
+    .container_footer {
+        padding: 10px;
+    }
+    .section-block3_container {
+        display: block;
+        max-width: 610px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .section_inner_picture>img {
+        height: 70%;
+    }
+
     .projects.projects_section>h2,
-    .contacts.contacts_section>h2 {
+    .contacts.contacts_section>h2,
+    h1>span,
+    .section__h2>h2,
+    .section_block2>span,
+    .section_block3>h2 {
         font-size: 34px;
+    }
+
+    .section-inner1,
+    .section-inner2 {
+        max-width: max-content;
+    }
+
+    .section_inner2_text {
+        margin-left: 2em;
+    }
+
+    .section_block1_picture12 {
+        width: 40%;
+    }
+
+    .section_block1_picture3,
+    .footer_logo>img {
+        display: none;
+    }
+
+    .header-menu>li,
+    .section__button_text,
+    .footer__nav_menu>li,
+    .footer_adress>p,
+    .footer_phone>a,
+    .footer_email>a {
+        font-size: 10px;
+    }
+
+    .section_block2_text,
+    .footer__h3>h3 {
+        font-size: 11px;
+    }
+
+    .footer-nav>ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .footer_email {
+        display: flex;
+        column-gap: 1em;
+        padding: 0.8em;
+    }
+
+    .footer_adress>img {
+        margin-bottom: 1.5em;
+    }
+
+    .section_block2_text {
+        display: flex;
+        padding: 10px;
+    }
+
+    .section_inner1_text>p,
+    .section_inner2_text>p {
+        font-size: 17px;
+    }
+
+    .section__form_picture>img,
+    .section__button_arrow>img,
+    .section_block1_picture12>img,
+    .section__button_arrow>img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
 
     .projects.projects_text p {

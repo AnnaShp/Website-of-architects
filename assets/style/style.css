@@ -55,6 +55,12 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: white;
+    background-color: #333333;
+}
+
+
 /*позиционирование 1 часть*/
 /*section-main*/
 .header_main_container,
@@ -564,7 +570,7 @@ h1>span,
         margin: 0px auto;
     }
 
-    .section__form_picture{
+    .section__form_picture {
         max-height: 600px;
     }
 
@@ -722,8 +728,10 @@ h1>span,
 
     .container__projects.container__projects_one,
     .container__projects.container__projects_two,
-    .container__contacts,.header_main_container,
-    .section-main_container,.section_block_container,
+    .container__contacts,
+    .header_main_container,
+    .section-main_container,
+    .section_block_container,
     .section-block3_container {
         max-width: 480px;
         padding-left: 15px;
@@ -773,7 +781,8 @@ h1>span,
 
     .container_footer {
         display: grid;
-        grid-template-columns:  1fr 1fr  1fr 1.5fr;;
+        grid-template-columns: 1fr 1fr 1fr 1.5fr;
+        ;
         max-width: 100%;
     }
 
@@ -834,7 +843,7 @@ h1>span,
     .section__button_text {
         font-size: 12px;
     }
-    
+
     .section_inner1_text,
     .section_inner2_text {
         font-size: 15px;

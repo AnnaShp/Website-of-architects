@@ -56,10 +56,17 @@ a {
 }
 
 a:hover {
-    color: white;
-    background-color: #333333;
+    border: 1px solid#333333;
+    padding: 3px;
 }
 
+.footer__nav_menu>li:hover,
+.footer_phone:hover,
+.footer_email:hover,
+.footer_social_logo>a:hover {
+    border: 1px solid #fff;
+    max-width: fit-content;
+}
 
 /*позиционирование 1 часть*/
 /*section-main*/

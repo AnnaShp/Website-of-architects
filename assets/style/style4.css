@@ -1,11 +1,16 @@
-.header-h4{
+.header_h4{
     color: #BDBDBD;
+    Width: 387px;
+    Height: 64px;
+    Top: 165px;
+    Left: 135px;
     font-family: 'Roboto', normal;
     font-weight: 300;
     font-size: 64px;
-    line-height: 64px;}
+    line-height: 64px;
+    }
     
-.header-h5{
+.header_h5{
     color:#333333;
     width: 259px;
     height: 64px;
@@ -21,7 +26,7 @@
     width: 1170px;
     height: 435px;
     left: 135px;
-    top: 353px;    
+    top: 353px;   
 }
 
 .picture_4_2_project1{ 

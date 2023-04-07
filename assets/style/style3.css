@@ -175,6 +175,14 @@ p {
         margin: 0px auto;
     }
 
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        size: 10px;
+        line-height: 25px;
+        color: black;
+    }
+
 }
 
 @media screen and (min-width: 640px) and (max-width: 959px){
@@ -195,6 +203,11 @@ p {
         grid-area: 4/9/5/13;
         gap: 0;
     }
+    .project-pict {
+        width: 50vh;
+        height: 50vh;
+    }
+
 }
 
 

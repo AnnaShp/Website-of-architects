@@ -937,7 +937,6 @@ h1>span,
 }
 
 @media screen and (max-width: 479px) {
-    .header-nav {}
 
     .projects.projects_section>h2,
     .contacts.contacts_section>h2,

@@ -1,3 +1,9 @@
+.section_projects_container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
 .header_h4{
     color: #BDBDBD;
     Width: 387px;
@@ -22,7 +28,6 @@
     line-height: 64px;}
 
 .picture_4_1_project1{
-    position: absolute;
     width: 1170px;
     height: 435px;
     left: 135px;
@@ -30,7 +35,6 @@
 }
 
 .picture_4_2_project1{ 
-position: absolute;
 width: 419px;
 height: 428px;
 left: 135px;
@@ -38,8 +42,7 @@ top: 818px;
 }
 
 .article{
-    color: #000000;
-    position: absolute;
+color: #000000;
 width: 721px;
 height: 428px;
 left: 584px;
@@ -51,7 +54,6 @@ line-height: 25px;
 }
 
 .picture_4_3_project1{
-position: absolute;
 width: 1170px;
 height: 435px;
 left: 135px;

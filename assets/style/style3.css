@@ -1,5 +1,3 @@
-/** Позиционирование */
-
 .container{
     max-width: 1200px;
     padding-left: 15px;
@@ -121,4 +119,89 @@ p {
 .button-pages_right, .button-pages_left {
     border: 0;
     background-color: white;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px){
+    .container{
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    .container-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        max-width: 640px;
+    }
+    
+    .container-projects__section {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+
+    .container-projects__img {
+        grid-area: 1/1/5/2;
+    }
+
+    .project-pict {
+        width: 50vh;
+        height: 40vh;
+    }
+
+    .container-projects__content {
+        grid-area: 1/9/4/13;
+        width: 80%;
+        margin-left: 30px;
+        background-color: white;
+    }
+    
+    .container-projects__button {
+        grid-area: 4/9/5/13;
+        margin-left: 30px;
+        width: 221.81px;
+        height: 61px;
+        margin-top: 15px;
+        background-color: white;
+    }
+
+    .button-pages {
+        max-width: 640px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 959px){
+    .container{
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    .container-projects__content {
+        background-color: white;
+        grid-area: 2/9/4/13;
+        gap: 0;
+    }
+
+    .container-projects__button {
+        grid-area: 4/9/5/13;
+        gap: 0;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 639px){
+
+}
+
+@media screen and (max-width: 479px) {
+
 }

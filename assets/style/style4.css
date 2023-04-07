@@ -6,10 +6,6 @@
 } 
 .header_h4{
     color: #BDBDBD;
-    Width: 387px;
-    Height: 64px;
-    Top: 165px;
-    Left: 135px;
     font-family: 'Roboto', normal;
     font-weight: 300;
     font-size: 64px;
@@ -18,10 +14,6 @@
     
 .header_h5{
     color:#333333;
-    width: 259px;
-    height: 64px;
-    left: 135px;
-    top: 229px;
     font-family: 'Roboto', normal;
     font-weight: 700;
     font-size: 64px;
@@ -43,19 +35,16 @@ top: 818px;
 
 .article{
 color: #000000;
-width: 721px;
-height: 428px;
-left: 584px;
-top: 818px;
-font-family: 'Roboto',normal;
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
 }
 
 .picture_4_3_project1{
-width: 1170px;
-height: 435px;
-left: 135px;
-top: 1276px;
+    width: 1170px;
+    height: 435px;
+    left: 135px;
+    top: 1276px;
 }

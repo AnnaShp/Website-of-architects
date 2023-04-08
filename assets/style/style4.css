@@ -1,9 +1,11 @@
+.section_projects_container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
 .header_h4{
     color: #BDBDBD;
-    Width: 387px;
-    Height: 64px;
-    Top: 165px;
-    Left: 135px;
     font-family: 'Roboto', normal;
     font-weight: 300;
     font-size: 64px;
@@ -12,17 +14,12 @@
     
 .header_h5{
     color:#333333;
-    width: 259px;
-    height: 64px;
-    left: 135px;
-    top: 229px;
     font-family: 'Roboto', normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;}
 
 .picture_4_1_project1{
-    position: absolute;
     width: 1170px;
     height: 435px;
     left: 135px;
@@ -30,7 +27,6 @@
 }
 
 .picture_4_2_project1{ 
-position: absolute;
 width: 419px;
 height: 428px;
 left: 135px;
@@ -38,22 +34,17 @@ top: 818px;
 }
 
 .article{
-    color: #000000;
-    position: absolute;
-width: 721px;
-height: 428px;
-left: 584px;
-top: 818px;
-font-family: 'Roboto',normal;
+color: #000000;
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
 }
 
 .picture_4_3_project1{
-position: absolute;
-width: 1170px;
-height: 435px;
-left: 135px;
-top: 1276px;
+    width: 1170px;
+    height: 435px;
+    left: 135px;
+    top: 1276px;
 }

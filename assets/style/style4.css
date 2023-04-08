@@ -19,6 +19,13 @@
     font-size: 64px;
     line-height: 64px;}
 
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content:center;
+    align-items:space-between; 
+}
+
 .picture_4_1_project1{
     width: 1170px;
     height: 435px;

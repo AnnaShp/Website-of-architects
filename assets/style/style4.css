@@ -10,6 +10,7 @@
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
+    margin-top: 60px;;
     }
     
 .header_h5{
@@ -17,16 +18,19 @@
     font-family: 'Roboto', normal;
     font-weight: 700;
     font-size: 64px;
-    line-height: 64px;}
+    line-height: 64px;
+}
 
 .flex-container {
     display: flex;
     flex-direction: row-reverse; 
     justify-content:center;
     align-items:space-between; 
+    margin-bottom: 30px;
 }
 
 .picture_4_1_project1{
+    margin-bottom: 30px;
     width: 1170px;
     height: 435px;
     left: 135px;
@@ -47,6 +51,7 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 25px;
+margin-left: 30px;
 }
 
 .picture_4_3_project1{
@@ -54,4 +59,5 @@ line-height: 25px;
     height: 435px;
     left: 135px;
     top: 1276px;
+    margin-bottom: 120px
 }

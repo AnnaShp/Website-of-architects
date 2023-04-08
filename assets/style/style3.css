@@ -121,6 +121,11 @@ p {
     background-color: white;
 }
 
+button:hover {
+    color: #BDBDBD;
+    transition: 0.5s;
+}
+
 @media screen and (min-width: 960px) and (max-width: 1199px){
     .container{
         max-width: 640px;
@@ -212,9 +217,37 @@ p {
 
 
 @media screen and (min-width: 480px) and (max-width: 639px){
+    .container{
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+        gap: 0px;
+    }
 
+    .project-pict {
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height:300px;
+    }
+
+    .container-projects__content {
+        background-color: white;
+    }
 }
 
 @media screen and (max-width: 479px) {
+    .container{
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+        gap: 0px;
+    }
 
+
+    .container-projects__content {
+        background-color: white;
+    }
 }

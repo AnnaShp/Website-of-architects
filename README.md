@@ -27,7 +27,7 @@
 
 ## Link
 
-[![link](./assets/img/1_1_icon.png)Website of architects](http://127.0.0.1:5501/index.html)
+[![link](./assets/img/1_1_icon.png)Website of architects](https://annashp.github.io/Practice-March-2023/)
 
 ## Website developers
 

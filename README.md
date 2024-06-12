@@ -27,7 +27,7 @@
 
 ## Link
 
-[![link](./assets/img/1_1_icon.png)Website of architects](https://annashp.github.io/Practice-March-2023/)
+[![link](./assets/img/1_1_icon.png)Website of architects]([(https://annashp.github.io/Website-of-architects/)])
 
 ## Website developers
 
